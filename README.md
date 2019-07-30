@@ -1,7 +1,7 @@
 # Tracking YouTube video views and comments
 This solution uses Google Sheets and [Apps Script](https://developers.google.com/apps-script/overview) to create a spreadsheet tracker for performance of selected public YouTube videos. The spreadsheet reads user-provided YouTube links and uses the [YouTube Advanced Service](https://developers.google.com/apps-script/advanced/youtube) to source views, likes, and comment counts for each video. The data updates are triggered to run on a regular basis, and an email notification is sent for any videos that have increased comment counts.
 
-More info available in [this blog post](https://medium.com/@presactlyalicia/automating-youtube-comment-notifications-using-google-sheets-d5c09aa7f636)
+More info available in [this blog post](https://medium.com/@presactlyalicia/automating-youtube-comment-notifications-using-google-sheets-d5c09aa7f636).
 
 
 # Setup
