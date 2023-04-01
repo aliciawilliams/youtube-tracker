@@ -6,7 +6,7 @@ More info available in [this blog post](https://medium.com/@presactlyalicia/auto
 
 # Setup
 ## Spreadsheet setup
-1. Make of copy of the spreadsheet [here](https://docs.google.com/spreadsheets/d/12rQe1ndU_VmmHl0QIqUi-XxQ8lWovjh0xfOHTfxOHoo/copy). It already contains the Apps Script code from this repository.
+1. Make of copy of the spreadsheet [here](https://docs.google.com/spreadsheets/d/1GmtwCchbubqBqjUNQN9QB8ni0v5h-CtPczT--4l1J2w/copy). It already contains the Apps Script code from this repository.
 2. Change the name of the tab to the full email address where you’d like to receive email notifications. 
 3. Locate URLs of videos you would like to track and add them in column A below cell A1. URLs must be in the format starting with: 
 * https://www.youtube.com/watch?v=  
