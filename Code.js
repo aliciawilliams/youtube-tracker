@@ -43,6 +43,9 @@ function markVideos() {
       }
       // Calls getVideoDetails function and extracts target data for the video.
       var detailsResponse = getVideoDetails(videoId);
+      if(detailsResponse.pageInfo.totalResults==0) {
+        continue; // skip to next row
+      }
       var title = detailsResponse.items[0].snippet.title;
       var publishDate = detailsResponse.items[0].snippet.publishedAt;
       var publishDateFormatted = new Date(publishDate);
