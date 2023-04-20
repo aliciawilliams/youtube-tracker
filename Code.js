@@ -7,6 +7,15 @@ var COLUMN_NAME = {
   TITLE: 'Video Title',
 };
 
+// Creates custom menu to run markVideos from native Google Sheets UI
+function onOpen() {
+  var ui = SpreadsheetApp.getUi();
+
+  ui.createMenu('YouTube Tracker')
+    .addItem('Get video stats', 'markVideos')
+    .addToUi();
+}
+
 /**
  * Obtains YouTube video details and statistics for all
  * video URLs listed in 'Video Link' column in each
